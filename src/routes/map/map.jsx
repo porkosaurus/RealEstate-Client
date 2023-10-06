@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useNavigate } from 'react';
 import mapboxgl from 'mapbox-gl';
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import mbxGeocoding from '@mapbox/mapbox-sdk/services/geocoding'
 import './map.scss'
 import { useParams } from 'react-router-dom';
-
 
 const Map = () => {
   const { searchQuery } = useParams();
