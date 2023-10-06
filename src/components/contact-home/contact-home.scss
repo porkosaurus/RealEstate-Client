@@ -1,0 +1,164 @@
+.contact-home-section{
+    height: 85vh;
+    background-color: #101d2c;
+    display: flex;
+}
+
+.contact-home{
+    &-main{
+        width: 70%;
+        padding-left: 10%;
+        padding-top: 7.5%;
+        font-family: 'Nunito', sans-serif;
+
+    }
+    &-realtors{
+        width: 30%;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    &-main-heading{
+        color: white;
+        font-size: 6vh;
+
+    }
+    &-heading{
+        color: #c69963;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+    }
+}
+
+.contact-button{
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 0.04rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+
+.contact-home-realtors{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: flex-start;
+}
+
+
+.realtors{
+    &-heading{
+        color: #c69963;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+}
+
+.white-banner{
+    width: 40%;
+    height: 8%;
+    background-color: grey;
+}
+
+.seen-on-container{
+    padding-right: 2vw;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4vh;
+    color: grey;
+    display: flex;
+    height: 4vh;
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.seen-on-header{
+    transform: translateY(-2%);
+}
+
+.companies-container{
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.companies-image{
+    width: 12.5%;
+    max-height: 1.5625rem;
+    max-width: 100%;
+    filter: brightness(70%);
+}
+
+.realtor-image{
+    margin-right: 10%;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+}
+
+.realtor-text{
+    color: white;
+}
+
+.realtor-container{
+    width: 60%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.realtor-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.realtors-container{
+    margin: 0;
+}
+
+.realtor-name{
+    margin-bottom: 0;
+}
+
+.realtor-sold{
+    margin-top: 0;
+    color: grey;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .contact-home-section{
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-home-main{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-home-realtors{
+        margin-top: 15%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .realtors-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

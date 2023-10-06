@@ -1,0 +1,80 @@
+input[type=text]:focus:not([readonly]) {
+    box-shadow: none;
+    border-bottom: none;
+    outline: none; 
+  }
+  
+  input[type=password]:focus:not([readonly]) {
+    box-shadow: none;
+    border-bottom: none;
+    outline: none;
+  }
+
+.section-header{
+    margin: 0;
+    background-color: #101d2c;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-heading{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 2%;
+    width: 65%;
+}
+
+.search-options-container{
+    font-weight: 200;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.search-options{
+    &:hover{
+        border-bottom: 1px solid #c69963;
+        cursor: pointer;
+    }
+}
+
+.search-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-input{
+    background-color: #101d2c;
+    border-right: none;
+    border-bottom: 1px solid white;
+    width: 50%;
+    color: white;
+    margin-right: 1em;
+    outline: none;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+.search-button{
+    background-color: #c69963;
+    padding: 1% 2%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2vh;
+    line-height: 3vh;
+    border: none;
+}
