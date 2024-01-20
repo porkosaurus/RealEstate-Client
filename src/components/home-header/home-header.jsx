@@ -19,7 +19,7 @@ const HomeHeader = () => {
   };
 
   return (
-    <section className='section-header'>
+    <section className='bg-red'>
       <h1 className='search-heading'>Search All Homes In Los Angeles, CA</h1>
       <div className='search-options-container'>
         <h3 className='search-options'>Buy</h3>
